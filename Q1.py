@@ -1,3 +1,6 @@
 x=[4,5]
 y=4
-print(x[0]*y+x[1]*y)
+sum=0
+for i in range(2):
+    sum=sum+x[i]*y
+print(sum)
